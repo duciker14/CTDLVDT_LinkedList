@@ -41,7 +41,7 @@ public class List {
 	// In cac phan tu le
 	public void printLe() {
 		Node p = first;	
-		System.out.println("\nCac so le l‡:");
+		System.out.println("\nCac so le l√†:");
 		while (p != null) {
 			if (p.noidung %2 == 1) {
 				p.printNode();
@@ -120,7 +120,7 @@ public class List {
 		} else {
 			System.out.println("\n Mang sau khi sap xep la");
 			p = first;
-			Node q = p.next;
+			Node q;
 			int temp;
 			while (p!= null) {
 				q = p.next;
